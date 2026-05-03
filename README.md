@@ -46,24 +46,24 @@ bash
 java -version
 javac -version
 
-# 2.Clone the Repository
+## 2.Clone the Repository
 git clone https://github.com/Sohaib382/ITTicketingSystem.git
 cd ITTicketingSystem
 # 3.Compile the Project
 javac -d out -sourcepath src src/Main.java
-# 4.Run the Application
+## 4.Run the Application
 java -cp out Main
 
 This will:
 
-# 5.Compile the project
+## 5.Compile the project
 Launch the Java Swing application
  First-Time Notes
 Make sure the out/ folder exists before compiling:
 mkdir out
 No internet connection or Maven required
 Use the default credentials listed above to log in
-# Features Implemented
+## Features Implemented
 Login / Logout (End User and IT Staff roles)
 End User: Submit IT tickets with priority and component selection
 End User: View ticket status and notification history
